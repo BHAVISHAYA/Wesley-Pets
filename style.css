@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffe0ab;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.line {
+    background-color: black;
+    height: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.tagLine p {
+    padding-top: 2rem;
+    font-size: 6rem;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    word-spacing: 20px;
+}
+
+.para1 {
+    font-size: 4rem;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 5rem;
+}
+
+.para2 {
+    font-size: 1.2rem;
+}
+
+
+.dog img {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.dogItem img, .itemsImg img {
+    width: 90%;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border: 2px solid black;
+}
+
+.dogItem img:hover, .itemsImg img:hover {
+    box-shadow: 4px 5px 6px grey;
+}
+
+
+.span {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.span a {
+    border: 2px solid black;
+    padding: 7px;
+    font-size: 1rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.span a:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 3px 4px 5px grey;
+}
+
+.lastPageLine p {
+    font-size: 5.5rem;
+    text-align: center;
+    line-height: 6rem;
+}
+
+b {
+    text-decoration-line: underline;
+    -moz-text-decoration-line: underline;
+}
+
+.smallLine {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.lastItemImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    border: 2px solid black;
+}
+
+.lastItemImg img:hover {
+    box-shadow: 3px 4px 5px grey;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 3px 4px 5px grey;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+}
+
+.lastText {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+li {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width : 992px) {
+    .tagLine p {
+        font-size: 5.5rem;
+        line-height: 7rem;
+    }
+    .para1 {
+        font-size: 3.4rem;
+        line-height: 4rem;
+    }
+    .lastPageLine p {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+    body {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .tagLine p {
+        font-size: 5rem;
+        line-height: 6rem;
+    }
+    .para1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    .lastPageLine p {
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+}
+
+@media screen and (max-width : 576px) {
+    .tagLine p {
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+    .para1 {
+        font-size: 2.7rem;
+    }
+    .lastPageLine p {
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+}
+
+@media screen and (max-width : 370px) {
+    .tagLine p {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .para1 {
+        font-size: 2.3rem;
+    }
+    .lastPageLine p {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .smallLine p {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+}
